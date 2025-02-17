@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.container {
+  width: 350px;
+  height: 350px;
+  /* border: 2px solid gainsboro; */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+img {
+  width: 60%;
+}
+h2 {
+  padding: 10px 0;
+}
+.icon {
+  font-size: 30px;
+  padding: 13px 0;
+}
+.icon i {
+  padding: 0 10px;
+  cursor: pointer;
+}
